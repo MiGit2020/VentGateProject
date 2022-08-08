@@ -1,4 +1,5 @@
-April
+    April
+    ==========
 
 1/2 Photometric night with IQ70 borderline 20 in some periods.
     Twilight: 19:31 evening
@@ -60,3 +61,61 @@ April
 15/16 P2: 02:07-02:25am
       Twilight: 19:16-06:11
       Wind: 0.5-3.5m/s 
+
+16/17 P2: No datos
+      
+17/18 P2: 02:31-02:42am
+      Twilight
+      Wind: 1-5m/s  
+
+18/19 P2: 19:57-20:13, 23:10-03:58
+      Twilight: 19:14-06:12
+      Wind: 2.9-11.4
+
+19/20 P2: 19:30-19:46, 21:27-06:23
+      Twilight:
+      wind: 6-15m/s
+
+20/21 P2: 19:30-20:54, 00:25-06:17
+      twilight: 19:10-06:14
+      wind: 2-10m/s
+
+21/22 P2: no data
+      Twilight:
+      Wind: 
+
+22/23 P2: 19:30-06:41
+      Twilight:
+      Wind: 3-9m/s
+
+23/24 P2: 19:30-21:09, 22:57-1:57, 3:42-6:12
+      Twilight: 19:07-6:16
+      Wind: 2-10m/s
+
+24/25 P2: 20:41-5:31
+      Twilight: 
+      Wind: 10-15m/s
+
+25/26 P2: 20:29-21:14, 23:12-5:58 
+      Twilight:
+      Wind: 2-14m/s
+
+26/27 P2: 1:11-2:53
+      Twilight: 19:05-6:17am
+      wind: 7-14 m/s
+
+27/28 P2: 21:19- 06:19
+      Twilight: 
+      Wind: 5-11m/s
+
+28/29 P2: 00:04-3:21am
+      Twilight
+      Wind: 1-4.5m/s
+
+29/30 P2: 00:15-04:42
+      Twilight: 19:03-6:19am
+      Wind: 0.5-4m/s
+
+30/01may P2:19:30-6:30am
+         Twilight
+         Wind: 1-4may 
