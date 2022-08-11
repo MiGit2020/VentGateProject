@@ -1,7 +1,8 @@
     April
     ==========
 
-1/2 Photometric night with IQ70 borderline 20 in some periods.
+1/2 P2: no data
+    Photometric night with IQ70 borderline 20 in some periods.
     Twilight: 19:31 evening
               06:03 morning
     wind: 4-10m/s
@@ -10,6 +11,7 @@
     Twilight: 19:30
               06:04
     wind: 1-4m/s
+    Ventgate: ambos en 30%. No fueron cambiados de esta posicion. 
 
 3/4 Twilight 19:29 
              06:04
@@ -20,7 +22,7 @@
              06:05
     P2: 23:51-2:56, 4:32-4:50 (horas usadas por P2)
     wind: 7-12m/s
-
+    ventgate: 
 5/6 Twilight 19:26
              06:05
     P2: 03:38-05:05
