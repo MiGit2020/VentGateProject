@@ -1,6 +1,8 @@
 para enviar un file desde mi computador local a github hacer lo siguiente:
 
  git remote -v (para ver la rama remota, suele ser "origin")
+     origin	https://github.com/MiGit2020/VentGateProject (fetch)
+     origin	https://github.com/MiGit2020/VentGateProject (push)
  git branch (ver en que rama estoy, ejemplo "main")
  git add file
  git commit -m "comentario"
