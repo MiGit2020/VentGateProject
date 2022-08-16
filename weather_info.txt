@@ -15,5 +15,39 @@ Loose Snow	                ws > 5 m/s Fully Closed	  ws > 8 m/s Fully Closed
 
 
 
+GS Closing due to high humidity and/or moisture.
+=========================================================
+Relative Humidity upper closing limit for Telescope = 85%. 
+Reopening should be when RH is stable and RH has been 75% 
+for at least 40 minutes; you may want to consider using the 
+remote dome draining procedure (GN) or remote dome draining 
+procedure (GS) when opening back up after long bouts of heavy humidity.
+-precipitation
+-light mist
+-fog
+
+frost buildup >1/4" on dome (~1/8" on weather station; use 
+black antenna diameter as approximately 1/8" reference); 
+note: closing due to frost buildup is likely closing for the 
+night, as usually in these conditions we are at low enough temperatures 
+where we don't expect sublimation to clear the ice buildup)
+-snow
+
+GS Additional Humidity Information
+===================================
+Moderate Humidity/Warm summit. Dew Point closure guidelines due to condensation issues.
+
+This situation is most common in summer time at GS, and it has to 
+do with how warm it can get at CP.  If the dew point rises above 
+the temperature of the cooling lines in the CRCS, the condensed water 
+can then drip into the instruments below.
+If the temperature difference between the dew point and the cooling lines 
+is zero or positive (dewP >= Cooling Temp) for the last 30 min you should 
+close the dome (or not open) and turn (keep) AHUs ON. The opposite should 
+be considered before opening. Cooling lines temp can be check from GIS dm 
+screen in the submenu Coolant flow, +X and -X cass wrap supply sensors temp.
+
+
+
 
 
