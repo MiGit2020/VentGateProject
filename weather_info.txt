@@ -1,0 +1,19 @@
+CERRO PACHON
+WIND SPEED (ws)	                Vent Gates	          Shutters
+--------------------------------------------------------------------
+
+Sustained wind / No dust	ws < 8 m/s Fully Open	  Fully Open
+--------------------------------------------------------------------
+ 8m/s < ws < 13 m/s	        Open 20 - 50 %	          Fully Open or Tracking mode
+--------------------------------------------------------------------
+ws > 13 m/s	                Fully Closed	          ws > 20 m/s Fully Closed
+
+                                                          Gust > 25 m/s Fully Closed
+--------------------------------------------------------------------
+Loose Snow	                ws > 5 m/s Fully Closed	  ws > 8 m/s Fully Closed
+--------------------------------------------------------------------
+
+
+
+
+
