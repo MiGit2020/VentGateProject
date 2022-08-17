@@ -14,3 +14,12 @@ para enviar un file desde mi computador local a github hacer lo siguiente:
  git commit -m "comentario"
  git push origin main (mando lo de main a origin)
 
+
+Borrar un archivo.
+
+ir al directorio de Trabajo
+rm test1.txt
+git add .
+git commit -m “borre test1”
+git push origin main
+
