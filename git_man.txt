@@ -15,7 +15,7 @@ para enviar un file desde mi computador local a github hacer lo siguiente:
  git push origin main (mando lo de main a origin. sintaxis: "git push origin rama")
 
 
-Borrar un archivo.
+#Borrar un archivo.
 
 ir al directorio de Trabajo
 rm test1.txt
