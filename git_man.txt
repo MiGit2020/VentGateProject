@@ -1,4 +1,4 @@
-
+##
 #para enviar un file desde mi computador local a github hacer lo siguiente:
 
 #iniciar git desde un terminal.
