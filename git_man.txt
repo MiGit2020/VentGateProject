@@ -12,7 +12,7 @@ para enviar un file desde mi computador local a github hacer lo siguiente:
  git branch (ver en que rama estoy, ejemplo "main")
  git add file
  git commit -m "comentario"
- git push origin main (mando lo de main a origin)
+ git push origin main (mando lo de main a origin. sintaxis: "git push origin rama")
 
 
 Borrar un archivo.
