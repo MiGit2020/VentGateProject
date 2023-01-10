@@ -4,6 +4,8 @@ para enviar un file desde mi computador local a github hacer lo siguiente:
 #iniciar git desde un terminal.
  cd dir_trabajo
  git init
+#para ver mi configuracion
+ git config --list
  git clone https://github.com/MiGit2020/VentGateProject
 
  git remote -v (para ver la rama remota, suele ser "origin")
