@@ -25,3 +25,4 @@ git add .
 git commit -m “borre test1”
 git push origin main
 
+#Para cambiar nombre de directorio en github, ir a settings y Rename.
