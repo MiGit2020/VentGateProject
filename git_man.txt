@@ -25,3 +25,19 @@ git add .
 git commit -m “borre test1”
 git push origin main
 
+fetch y pull
+-------------
+git fetch descargará el contenido remoto sin modificar el estado del repositorio local. En cambio, git pull descargará el contenido remoto y tratará inmediatamente de cambiar el estado del repositorio local para reflejar ese contenido. De modo accidental, esto puede provocar que el repositorio local entre en conflicto.
+
+
+git checkout
+------------
+
+Use git checkout to switch to a specific branch.
+
+git checkout <branch_name>
+
+
+
+
+
