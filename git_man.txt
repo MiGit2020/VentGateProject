@@ -25,6 +25,7 @@ git add .
 git commit -m “borre test1”
 git push origin main
 
+<<<<<<< HEAD
 fetch y pull
 -------------
 git fetch descargará el contenido remoto sin modificar el estado del repositorio local. En cambio, git pull descargará el contenido remoto y tratará inmediatamente de cambiar el estado del repositorio local para reflejar ese contenido. De modo accidental, esto puede provocar que el repositorio local entre en conflicto.
@@ -64,3 +65,6 @@ y origin es la rama remota que se ve con 'git remote -v'
 
 
 
+=======
+#Para cambiar nombre de directorio en github, ir a settings y Rename.
+>>>>>>> c94a4d95271d99e48607b019dbd8696c3e6544a9
