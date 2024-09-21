@@ -37,6 +37,29 @@ Use git checkout to switch to a specific branch.
 
 git checkout <branch_name>
 
+Nota:
+Para algo como:
+
+git push origin master
+>Username for 'https://github.com': MiGit2020
+en el password usar token
+>Password for 'https://MiGit2020@github.com':  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
+
+git pull
+--------
+
+Para traer algo, usamos el siguiente comando:
+
+>git pull origin master
+
+donde master es la rama local que se ve con 'git branch'
+y origin es la rama remota que se ve con 'git remote -v'
+
+*#06#
+
+
+
+
 
 
 

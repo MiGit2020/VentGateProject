@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Aug 27 20:29:16 2023
+Lee tabla con datetime,p2,wind  y crea una nueva tabla con fecha,hora+min+seg, datetime,p2 y wind
+@author: pcandia
+"""
+
+from datetime import datetime, timedelta
+
+import csv
+import pandas as pd
+import os,sys
+
+#Script para cortar una tabla en rangos de horas. En este caso las filas entre las 6am-22pm 
+#seran descartadas
+
+def convertir_fecha_decimal(fila,numero):
+    # Convertir la fecha decimal en un objeto datetime
+    fecha_base = datetime(1899, 12, 30)
+    delta = timedelta(days=numero) #numero es el datetime
+    fecha = fecha_base + delta
+
+    # Formatear la fecha en un formato legible
+    fecha_formateada = fecha.strftime("%m/%d/%Y")
+    print('numero:',numero)
+    #p_entera=int(numero)
+    p_decimal= numero % 1
+    hora= int(p_decimal*24)
+    hora2 = format(hora, '02')
+    min= int(((p_decimal*24) % 1)*60)
+    min2 = format(min, '02')
+    seg= int(((((p_decimal*24) % 1)*60) % 1)  *60)
+    seg2= format(seg, '02')   
+    if hora >= 6 and hora <= 22: #hora entre (6-22]
+        return(fecha_formateada,hora2,min2,seg2,numero)
+    else:
+        #print("--> ",fila)
+        #f=open("f_p2_w_1_fin3.txt", "a")
+        f=open("mcs_2022_el.txt", "a")
+        linea=fecha_formateada+',  '+hora2+':'+min2+':'+seg2+',  '+ format(float(fila[1]),'.5f') + ',  '+ format(float(fila[2]),'.2f')+ ', '+format(float(fila[3]),'.2f') +'\n'
+        #linea=fecha_formateada+' '+hora2+':'+min2 +' '+ format(float(fila[1]),'.5f')+' '+ format(float(fila[2]),'.1f') +' '+ format(float(fila[3]),'.1f') +' '+format(float(fila[4]),'.1f') +' '+format(float(fila[5]),'.1f') +' ' +format(float(fila[6]),'.1f') +' '+fila[8]+ ' ' +fila[10] + '\n'
+        print('linea=', linea)
+        f.write(linea)
+        f.close()
+            
+            
+
+with open('mcs_2022.csv', 'r') as archivo_csv:
+    lector_csv = csv.reader(archivo_csv)
+    for fila in lector_csv:
+        print(fila)
+        #if fila[0]=='fecha' or fila[1] == 'hour' or fila[2] == 'datetime' or fila[3]=='ecs_az_pos' or fila[4]=='topshut_pos' or fila[5]=='botshut_pos' or fila[6]=='eastVent_pos' or fila[7]=='westVent_pos' or fila[8]=='pwfs2_see' or fila[9]=='windAve':
+        if fila[1]=='datetime' or fila[2] == 'mcs_az' or fila[3]=='mcs_el':
+            pass
+        else:
+            #print(fila[0])
+            numero = float(fila[1])
+            fecha_legible = convertir_fecha_decimal(fila,numero)
+            #print(fecha_legible)
+
